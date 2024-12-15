@@ -1,0 +1,141 @@
+body {
+    overflow: hidden;
+    font-family: serif;
+    background-color: #000198;
+    background-image: url("mta.jpg");
+    background-repeat: no-repeat;
+    background-size: 36%;
+    background-position: 27%;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: white;
+}
+
+header {
+    background-color: #DADCE0;
+    color: black;
+    padding: 15px 20px;
+    border-bottom: 3px solid #ffcc00;
+    text-align: left;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #DADCE0;
+    color: black;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #ffcc00;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    color:yellow;
+}
+
+.section-title {
+    font-weight: bold;
+}
+.subway-icons span {
+    display: inline-block;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 5px;
+    font-size: 0.9em;
+}
+.subway-icons .green { background-color: #4caf50; }
+.subway-icons .purple { background-color: #8e44ad; }
+.subway-icons .orange { background-color: #e67e22; }
+.subway-icons .gray { background-color: #bdc3c7; }
+
+.main {
+    height: 78vh;
+    width: 100%;
+    display: flex;
+}
+
+.status{
+    width: 300px;
+    flex-grow: 1;
+    padding: 15px;
+}
+
+.links{
+    width: 300px;
+    margin: auto;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.left-panel {
+    width: 75%;
+}
+
+.middle-panel {
+    padding-top: 18px;
+    width: 60%;
+}
+
+.right-panel {
+    padding-top: 20px;
+    width: 20%;
+}
+
+.useful-links {
+    justify-content: flex-end;
+}
+
+/* .status-section,
+.news-section {
+    margin-bottom: 20px;
+}
+
+.status-section table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+} */
+
+th,td {
+    /* border: 1px solid #999; */
+    padding-inline: 8px;
+    padding-block: 6px;
+    text-align: left;
+}
+
+/*.status-section th {
+    background-color: #f0f0f0;
+} */
+
+footer {
+    background-color: #DADCE0;
+    color: black;
+    text-align: left;
+    padding: 10px;
+    border-top: 3px solid #ffcc00;
+    font-size: 12px;
+}

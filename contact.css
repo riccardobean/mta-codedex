@@ -1,0 +1,115 @@
+body {
+    overflow: hidden;
+    font-family: serif;
+    background-color: #000198;
+    /* background-image: url("mta.jpg"); */
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 40%;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: white;
+}
+
+header {
+    background-color: #DADCE0;
+    color: black;
+    padding: 15px 20px;
+    border-bottom: 3px solid #ffcc00;
+    text-align: left;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #DADCE0;
+    color: black;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #ffcc00;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    color:yellow;
+}
+
+.main {
+    height: 78vh;
+    width: 100%;
+    display: flex;
+}
+
+.status{
+    h2 {
+        color: blue;
+    }
+    width: 290px;
+    height: 73.8vh;
+    background-color: lightyellow;
+    color: black;
+    flex-grow: 1;
+    padding: 15px;
+}
+
+.tty {
+    font-size: 0.9em;
+    color: gray;
+}
+
+.links{
+    margin: auto;
+    padding-left: 20px;
+    padding-top: 14px;
+}
+
+.left-panel {
+    width: 25%;
+}
+
+.middle-panel {
+    padding-top: 14px;
+    width: 40%;
+}
+
+.right-panel {
+    padding-top: 20px;
+    width: 35%;
+}
+
+.phoneimg{
+    padding: 15px;
+}
+
+th,td {
+    padding-inline: 8px;
+    padding-block: 6px;
+    text-align: left;
+}
+
+footer {
+    background-color: #DADCE0;
+    color: black;
+    text-align: left;
+    padding: 10px;
+    border-top: 3px solid #ffcc00;
+    font-size: 12px;
+}
