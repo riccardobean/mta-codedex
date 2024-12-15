@@ -143,27 +143,12 @@ h2 {
     justify-content: flex-end;
 }
 
-/* .status-section,
-.news-section {
-    margin-bottom: 20px;
-}
-
-.status-section table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 14px;
-} */
-
 th,td {
     /* border: 1px solid #999; */
     padding-inline: 8px;
     padding-block: 6px;
     text-align: left;
 }
-
-/*.status-section th {
-    background-color: #f0f0f0;
-} */
 
 footer {
     background-color: #DADCE0;
