@@ -1,4 +1,4 @@
-# Codédex Holiday Hackaton 2024
+# Codédex Holiday Hackathon 2024
 
 A simple recreation of the MTA website as it would have been in the 90s. There are maps from the time included in the repository (source: NYCSubway.org).
 
